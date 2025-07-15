@@ -1,1 +1,31 @@
 # etch-a-sketch
+
+## Checklist
+
+### Tasks:
+1. Touch files:
+    - [ ] index.html
+    - [ ] styles.css
+    - [ ] script.js
+
+2. Initialize index.html
+    - [ ] Create boilerplate
+    - [ ] Link styles.css
+    - [ ] Link script.js
+
+3. Structure DOM in index.html
+    - [ ] Add a label and input for number of rows and columns for grid
+    - [ ] Add a grid container
+    - [ ] Add buttons to clear and create new grid
+
+4. Add selectors in styles.css
+    - [ ] grid-container
+    - [ ] grid-row
+    - [ ] grid-cell
+    - [ ] button
+
+5. Add sections to script.js
+    - [ ] Variables
+    - [ ] Query Selectors
+    - [ ] Event Listeners
+    - [ ] Functions
