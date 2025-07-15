@@ -14,9 +14,9 @@
     - [x] Link script.js
 
 3. Structure DOM in index.html
-    - [ ] Add a label and input for number of rows and columns for grid
-    - [ ] Add a grid container
-    - [ ] Add buttons to clear and create new grid
+    - [x] Add a label and input for number of rows and columns for grid
+    - [x] Add a grid container
+    - [x] Add buttons to clear and create new grid
 
 4. Add selectors in styles.css
     - [ ] grid-container
