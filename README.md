@@ -19,10 +19,9 @@
     - [x] Add buttons to clear and create new grid
 
 4. Add selectors in styles.css
-    - [ ] grid-container
-    - [ ] grid-row
-    - [ ] grid-cell
-    - [ ] button
+    - [x] grid-container
+    - [x] grid-row
+    - [x] grid-cell
 
 5. Add sections to script.js
     - [ ] Variables

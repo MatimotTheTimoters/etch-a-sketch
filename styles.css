@@ -1,0 +1,59 @@
+/* Elements */
+body {
+    box-sizing: border-box; 
+}
+
+legend,
+label {
+    font-weight: bold;
+}
+
+/* Classes */
+.black-border {
+    border: 2px solid black;
+}
+
+/* Flexbox */
+.flex-row,
+.flex-col {
+    display: flex;
+}
+
+.flex-row {
+    flex-flow: row;
+}
+
+.flex-col {
+    flex-flow: column;
+}
+
+/* Flex Containers */
+body,
+.grid-container,
+.grid-row {
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.grid-creator-container,
+.grid-container {
+    margin: 10px;
+}
+
+.grid-container {
+    width: 500px;
+    height: 500px;
+}
+
+/* Flex Items */
+.grid-row {
+    flex: 1;
+    margin: 0px;
+}
+
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    flex: auto;
+}
