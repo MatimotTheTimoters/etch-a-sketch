@@ -31,6 +31,11 @@
 
 6. Populate Variables section in script.js
     - [x] currentRow
-    - [x] maxRows
+    - [x] rowCount
     - [x] currentCell
-    - [x] maxCells
+    - [x] cellCount
+
+7. Populate Query Selectors section in script.js
+    - [x] rowCountInput
+    - [x] loadGridBtn
+    - [x] clearGridBtn
