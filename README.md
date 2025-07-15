@@ -4,9 +4,9 @@
 
 ### Tasks:
 1. Touch files:
-    - [ ] index.html
-    - [ ] styles.css
-    - [ ] script.js
+    - [x] index.html
+    - [x] styles.css
+    - [x] script.js
 
 2. Initialize index.html
     - [ ] Create boilerplate
