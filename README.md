@@ -24,7 +24,13 @@
     - [x] grid-cell
 
 5. Add sections to script.js
-    - [ ] Variables
-    - [ ] Query Selectors
-    - [ ] Event Listeners
-    - [ ] Functions
+    - [x] Variables
+    - [x] Query Selectors
+    - [x] Event Listeners
+    - [x] Functions
+
+6. Populate Variables section in script.js
+    - [x] currentRow
+    - [x] maxRows
+    - [x] currentCell
+    - [x] maxCells
