@@ -9,9 +9,9 @@
     - [x] script.js
 
 2. Initialize index.html
-    - [ ] Create boilerplate
-    - [ ] Link styles.css
-    - [ ] Link script.js
+    - [x] Create boilerplate
+    - [x] Link styles.css
+    - [x] Link script.js
 
 3. Structure DOM in index.html
     - [ ] Add a label and input for number of rows and columns for grid
