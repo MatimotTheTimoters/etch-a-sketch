@@ -29,11 +29,13 @@ label {
 
 /* Flex Containers */
 body,
-.grid-container,
-.grid-row {
+.grid-container {
+    gap: 0;
+}
+
+body {
     justify-content: center;
     align-items: center;
-    gap: 0;
 }
 
 .grid-creator-container,
@@ -44,16 +46,17 @@ body,
 .grid-container {
     width: 500px;
     height: 500px;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 /* Flex Items */
+
 .grid-row {
     flex: 1;
     margin: 0px;
 }
 
 .grid-cell {
-    width: 20px;
-    height: 20px;
-    flex: auto;
+    flex: 1;
 }

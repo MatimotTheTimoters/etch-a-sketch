@@ -7,11 +7,12 @@ let
 let rowCountInput = document.querySelector("#row-count-input");
 let loadGridBtn = document.querySelector("#load-grid-btn");
 let clearGridBtn = document.querySelector("#clear-grid-btn");
-let gridContainer = document.querySelector(".grid-container");
 
 // Event Listeners
 loadGridBtn.addEventListener("click", () => {
+    let gridContainer = document.querySelector(".grid-container");
     cellCount = rowCount = Number(rowCountInput.value);
+    
     for (let currentRow = 1; currentRow <= rowCount; currentRow++) {
         let newRow = document.createElement("div");
         newRow.classList.add("flex-row", "grid-row");
