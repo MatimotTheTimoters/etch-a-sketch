@@ -42,7 +42,13 @@
     - [x] gridContainer
 
 8. Populate Event Listeners section in script.js
-    - [ ] loadGridBtn
+    - [x] clearGridBtn
+    - [x] loadGridBtn
+        - Create new grid
+        - Add classes
+        - Append to body
+        - Refer gridContainer to it
+    - [ ] loadCellsBtn
         - [x] Get value from rowCountInput
         - [x] Assign values to rowCount and cellCount
         - [x] Iterate through rows
@@ -51,8 +57,7 @@
                 - [x] Create cell item, and assign classes
                 - [ ] Add event listener that calls a function that changes the cell's color randomly
                 - [x] Append cell item to row item
-    - [ ] clearGridBtn
 
 9. Fix bugs
-    - [ ] Space between rows
-    - [ ] Rows not stretching to end of grid container
+    - [x] Space between rows
+    - [x] Rows not stretching to end of grid container

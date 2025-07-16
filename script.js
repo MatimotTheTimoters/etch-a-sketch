@@ -4,15 +4,30 @@ let
     currentCell, cellCount;
 
 // Query Selectors
+let body = document.querySelector("body");
+let gridContainer = document.querySelector(".grid-container");
 let rowCountInput = document.querySelector("#row-count-input");
-let loadGridBtn = document.querySelector("#load-grid-btn");
 let clearGridBtn = document.querySelector("#clear-grid-btn");
+let loadGridBtn = document.querySelector("#load-grid-btn");
+let loadCellsBtn = document.querySelector("#load-cells-btn");
 
 // Event Listeners
+clearGridBtn.addEventListener("click", () => {
+    gridContainer.remove();
+    rowCountInput.value = '';
+});
+
 loadGridBtn.addEventListener("click", () => {
-    let gridContainer = document.querySelector(".grid-container");
+    let newGridContainer = document.createElement("div");
+    newGridContainer.classList.add("grid-container", "black-border", "flex-col");
+    body.appendChild(newGridContainer);
+
+    gridContainer = newGridContainer;
+});
+
+loadCellsBtn.addEventListener("click", () => {
     cellCount = rowCount = Number(rowCountInput.value);
-    
+
     for (let currentRow = 1; currentRow <= rowCount; currentRow++) {
         let newRow = document.createElement("div");
         newRow.classList.add("flex-row", "grid-row");
@@ -26,10 +41,6 @@ loadGridBtn.addEventListener("click", () => {
             newRow.appendChild(newCell);
         }
     }
-});
-
-clearGridBtn.addEventListener("click", () => {
-
 });
 
 // Functions
