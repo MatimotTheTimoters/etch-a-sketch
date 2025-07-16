@@ -35,8 +35,10 @@ loadCellsBtn.addEventListener("click", () => {
         for (let currentCell = 1; currentCell <= cellCount; currentCell++) {
             let newCell = document.createElement("div");
             newCell.classList.add("grid-cell", "black-border");
-            newCell.addEventListener("hover", () => {
-
+            newCell.addEventListener("mouseenter", () => {
+                if (newCell.style.backgroundColor === "") {
+                    newCell.style.backgroundColor = getRandomColor();
+                }
             });
             newRow.appendChild(newCell);
         }
@@ -44,3 +46,10 @@ loadCellsBtn.addEventListener("click", () => {
 });
 
 // Functions
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+
+    return `rgb(${r}, ${g}, ${b})`;
+}

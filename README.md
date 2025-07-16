@@ -48,14 +48,14 @@
         - Add classes
         - Append to body
         - Refer gridContainer to it
-    - [ ] loadCellsBtn
+    - [x] loadCellsBtn
         - [x] Get value from rowCountInput
         - [x] Assign values to rowCount and cellCount
         - [x] Iterate through rows
             - [x] Create row item, and assign classes
             - [x] Iterate through current row's cells
                 - [x] Create cell item, and assign classes
-                - [ ] Add event listener that calls a function that changes the cell's color randomly
+                - [x] Add event listener that calls a function that changes the cell's color randomly
                 - [x] Append cell item to row item
 
 9. Fix bugs
